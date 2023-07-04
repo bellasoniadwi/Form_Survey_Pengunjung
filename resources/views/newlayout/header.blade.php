@@ -61,6 +61,12 @@
 
     // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function myFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+         document.getElementById("logo").style.width = "130px"
+      } else {
+         document.getElementById("logo").style.width = "200px"
+      }
+      
         if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
         } else {
