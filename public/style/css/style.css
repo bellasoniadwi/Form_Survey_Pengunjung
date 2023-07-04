@@ -845,17 +845,37 @@ span.current {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #363636;
+    color: #b80000;
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+}
+
+.contact_taital2 {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #111111;
+    /* font-weight: bold; */
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.contact_taital3 {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #111111;
+    /* font-weight: bold; */
+    text-align: center;
+    /* text-transform: uppercase; */
 }
 
 .contact_section_2 {
     width: 100%;
     margin: 0 auto;
     padding: 110px 20px 50px 20px;
-    background-color: #fe5b29;
+    background-color: #ffffff;
     border-top-left-radius: 540px;
     border-top-right-radius: 540px;
     margin-top: 50px;
@@ -875,8 +895,10 @@ span.current {
     float: left;
     font-size: 16px;
     color: #2a2a2c;
-    border: 0px;
-    background-color: #ffffff;
+    border: 1px;
+    border-color: #a9a4a4;
+    border-style: solid;
+    background-color:#ffffff;
     padding: 11px 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -894,8 +916,10 @@ input.mail_text::placeholder {
     height: 110px;
     font-size: 18px;
     background-color: #ffffff;
+    border-color: #a9a4a4;
     padding: 40px 20px 0px 20px;
-    border: 0px;
+    border: 1px;
+    border-style: solid;
     height: 110px;
     margin-top: 20px;
     border-radius: 5px;

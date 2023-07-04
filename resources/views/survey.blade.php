@@ -13,24 +13,16 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="contact_taital">Survey Sinarmed Jaya</h1>
+                    <h1 class="contact_taital2">Survey Pengunjung Untuk Produk Sinarmed Jaya</h1>
                 </div>
             </div>
         </div>
-        <div class="container">
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
+        <div class="container">            
             <form method="POST" action="{{ route('survey.store') }}">
                 @csrf
                 <div class="contact_section_2">
                     <div class="row">
+                        <h3 class="contact_taital3">Terima Kasih Telah Mengunjungi Booth Kami, Jika berkenan silahkan untuk mengisi pertanyaan yang sudah kami siapkan dibawah ini.</h3>
                         <div class="col-md-12">
                             <div class="mail_section_1">
                                 <input type="text" class="mail_text" placeholder="Nama Lengkap" name="nama"
