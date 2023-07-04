@@ -1123,3 +1123,8 @@ textarea#comment::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+.btn_wa{
+position: fixed;right: 20px;bottom: 20px;
+height: 60px;width: 60px;
+}
