@@ -23,13 +23,23 @@
              </div>
              <div class="col">
                <h4 class="footer_taital">Sosial Media</h4>
-               <ul>
-                  <div class="btn-group">
-                     <li><a href="https://www.facebook.com/sinarmed.jaya?_rdc=2&_rdr"><i class="fa fa-facebook" style="font-size:48px;color:white" aria-hidden="true"></i></a></li>
-                     <li><a href="https://www.youtube.com/channel/UCwlvBU1w44b3CbZ2nk4gRsg"><i class="fa fa-youtube" style="font-size:48px;color:white" aria-hidden="true"></i></a></li>
-                     <li><a href="https://www.instagram.com/pt_sinarmedjaya/"><i class="fa fa-instagram" style="font-size:48px;color:white" aria-hidden="true"></i></a></li>
+               <div class="row">
+                  <div class="col-md-2">
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-end" >
+                        <a href="https://www.youtube.com/channel/UCwlvBU1w44b3CbZ2nk4gRsg"><i class="fa fa-youtube" style="font-size:48px;color:white" aria-hidden="true"></i></a>
+                      </div>
                   </div>
-               </ul>
+                  <div class="col-md-2">
+                      <div class="d-grid gap-2">
+                        <a href="https://www.facebook.com/sinarmed.jaya?_rdc=2&_rdr"><i class="fa fa-facebook" style="font-size:48px;color:white" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+                  <div class="col-md-2">
+                     <div class="d-grid gap-2">
+                        <a href="https://www.instagram.com/pt_sinarmedjaya/"><i class="fa fa-instagram" style="font-size:48px;color:white" aria-hidden="true"></i></a>
+                     </div>
+                 </div>
+              </div>
             </div>
           </div>
          </div>
