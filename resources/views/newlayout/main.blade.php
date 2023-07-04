@@ -32,6 +32,8 @@
       <link rel="stylesheet" href="{{ asset('style/css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!--Shortcut Icon -->
+      <link rel="shorcut icon" href="{{ asset('style/images/icon2.png')}}">
    </head>
    <body>
 
