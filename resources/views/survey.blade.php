@@ -68,9 +68,8 @@
                         </div>
                     </div>
                 </div>
-                    <a href="#">
-            <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
-            <img src="{{ asset ('style/images/wa.png') }}" class="btn_wa"></button></a>
+                    <a href="https://wa.me/628113387053" style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
+                    <img src="{{ asset ('style/images/wa.png') }}" class="btn_wa" href="https://wa.me/628113387053" style="z-index: 9999;"></button></a>
             </form>
         </div>
     </div>
