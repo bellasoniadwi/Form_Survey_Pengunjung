@@ -32,7 +32,7 @@ class SurveyController extends Controller
         $request -> validate([
             'nama' => 'required',
             'instansi' => 'required',
-            'no_hp' => 'required|max:13',
+            'no_hp' => 'required|min:11|max:13',
             'saran' => 'required'
         ]);
 
