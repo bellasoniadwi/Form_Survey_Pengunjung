@@ -41,7 +41,7 @@
                                     id="nama" required>
                                 <input type="text" class="mail_text" placeholder="Instansi/Perusahaan" name="instansi"
                                     id="instansi" required>
-                                <input type="text" class="mail_text" placeholder="No Handphone" name="no_hp"
+                                <input type="number" class="mail_text" placeholder="No Handphone" name="no_hp"
                                     id="no_hp" required>
                                 <textarea class="massage-bt" style="border:solid 1px #f60b0b;" placeholder="Rencana Pengembangan Rumah Sakit Kedepan" name="saran" id="saran"
                                     required></textarea>
