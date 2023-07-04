@@ -31,7 +31,7 @@
             @endif       
             <form method="POST" action="{{ route('survey.store') }}">
                 @csrf
-                <div style="margin-bottom: 70px">
+                <div style="margin-bottom: 60px">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="mail_section_1">
@@ -47,6 +47,21 @@
                                 <div class="d-grid gap-2">
                                     <button type="submit" class="btn-submit">Submit</button>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 70px">
+                    <div class="row">
+                        <h1 class="text-center">Atau Anda Dapat Rekam Suara Anda Untuk Survey Disini !</h1>
+                        <div class="col-md-6">
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end" >
+                                <button type="submit " class="btn-record ">Rekam Suara</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn-record">Selesai Rekam</button>
                             </div>
                         </div>
                     </div>
