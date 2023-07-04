@@ -7,6 +7,8 @@
 {{-- @section('contact', 'active') --}}
 
 @section('content')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- contact section start -->
     <div class="contact_section layout_padding">
         <div class="container">
@@ -46,6 +48,9 @@
                         </div>
                     </div>
                 </div>
+                    <a href="#">
+            <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
+            <img src="{{ asset ('style/images/wa.png') }}" class="btn_wa"></button></a>
             </form>
         </div>
     </div>
