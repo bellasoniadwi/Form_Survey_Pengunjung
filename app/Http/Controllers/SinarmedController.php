@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class SinarmedController extends Controller
 {
-    public function survey()
+    public function about()
     {
-        return view('survey', ['title' => 'Survey']);
+        return view('about');
     }
 }
