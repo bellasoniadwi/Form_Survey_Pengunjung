@@ -875,14 +875,20 @@ span.current {
     float: left;
     font-size: 16px;
     color: #2a2a2c;
-    border: 0px;
+    border: 1px;
     background-color: #ffffff;
+    border-style: solid;
+    border-color: #f60b0b;
     padding: 11px 20px;
     margin-top: 20px;
     border-radius: 5px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+::placeholder {
+    color: #2a2a2cbf;
+    opacity: 1; /* Firefox */
+  }
 
 input.mail_text::placeholder {
     color: #2a2a2c;
@@ -911,6 +917,25 @@ textarea#comment.massage-bt::placeholder {
     width: 170px;
     margin: 0 auto;
     text-align: center;
+}
+
+.btn-submit{
+    margin-top: 20px;
+    background-color: #fe2929;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.btn-submit:hover{
+    background-color: white;
+    color: #fe2929;
+    border: 5px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #fe2929;
 }
 
 .send_bt a {
