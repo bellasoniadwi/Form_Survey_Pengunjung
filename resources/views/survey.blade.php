@@ -1,7 +1,7 @@
 @extends('newlayout.main')
 
 @section('title')
-    Survey
+    Survey Booth Sinarmed
 @endsection
 
 {{-- @section('contact', 'active') --}}

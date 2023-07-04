@@ -10,7 +10,6 @@
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
       <title>
-        Sinarmed || 
         @yield('title')
     </title>
       <meta name="keywords" content="">
