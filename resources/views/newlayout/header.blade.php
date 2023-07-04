@@ -1,5 +1,5 @@
 <!-- header section start -->
-<div class="header_section sticky-top">
+<div class="header_section" id="myHeader" style="z-index: 9999;">
     <div class="container">
        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
          <a class="navbar-brand" href="index.html"><img id="logo" width="200px" height="75px" src="{{ asset('style/images/logo.png')}}"></a>
@@ -43,18 +43,24 @@
        </nav>
     </div>
  </div>
-{{-- 
- <script>
-   window.onscroll = function() {scrollFunction()};
-   
-   function scrollFunction() {
-     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-       document.getElementById("logo").width = "150px";
-       document.getElementById("logo").heigth = "60px";
-     } else {
-      document.getElementById("logo").width = "200px";
-       document.getElementById("logo").heigth = "75px";
-     }
+
+<script>
+   // When the user scrolls the page, execute myFunction
+   window.onscroll = function() {myFunction()};
+
+   // Get the header
+   var header = document.getElementById("myHeader");
+
+   // Get the offset position of the navbar
+   var sticky = header.offsetTop;
+
+   // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+   function myFunction() {
+   if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+   } else {
+      header.classList.remove("sticky");
    }
-   </script> --}}
+   }
+</script>
  <!-- header section end -->
