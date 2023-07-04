@@ -265,6 +265,18 @@ button {
     float: right;
 }
 
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+
 .call_text_main{
     width: 100%;
     float: left;
@@ -1163,7 +1175,7 @@ textarea#comment::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #363636;
+    background-color: #f60b0b;
     height: auto;
 }
 
