@@ -21,9 +21,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-<<<<<<< HEAD
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/survey', [SinarmedController::class, 'survey']);
-=======
+
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
->>>>>>> 2261ac8e339f6f3e7686318bc6376bd224deafe3
