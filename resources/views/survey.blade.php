@@ -33,7 +33,6 @@
                 @csrf
                 <div style="margin-bottom: 70px">
                     <div class="row">
-                        <h3 class="contact_taital3">Terima Kasih Telah Mengunjungi Booth Kami, Jika berkenan silahkan untuk mengisi pertanyaan yang sudah kami siapkan dibawah ini.</h3>
                         <div class="col-md-12">
                             <div class="mail_section_1">
                                 <input type="text" class="mail_text" placeholder="Nama Lengkap" name="nama"
